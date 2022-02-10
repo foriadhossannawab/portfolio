@@ -140,7 +140,6 @@ header {}
 .work_content::before {
     content: '';
     position: absolute;
-    /* background-color: #000000e0; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -221,10 +220,8 @@ header {}
 
 .about_content p {
     color: #ffffffd9;
-    /* margin: 5px 0 15px 0; */
     font-size: 14px;
     margin-bottom: 15px;
-    /* text-align: start; */
 }
 
 .skil_box {
@@ -245,7 +242,6 @@ header {}
     height: 150px;
     fill: none;
     stroke-width: 10;
-    /* stroke: #ffffff; */
     transform: translate(5px, 5px);
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
@@ -254,7 +250,6 @@ header {}
 
 .skil_box svg circle:nth-child(1) {
     stroke-dashoffset: 0;
-    /* stroke: #f3f3f3; */
 }
 
 .skil_box svg circle:nth-child(2) {
@@ -276,53 +271,6 @@ header {}
 
 .number h2 {
     font-size: 30px;
-}
-
-
-/* .skil_box {
-    position: relative;
-}
-
-.circle {
-    height: 200px;
-    width: 200px;
-    position: relative;
-    background-color: #58ac12;
-    z-index: 0;
-}
-
-.circle::before {
-    content: '';
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    background-color: #ffffff;
-    z-index: -1;
-}
-
-.circle::after {
-    content: '';
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    height: 80%;
-    width: 80%;
-    border-radius: 50%;
-    background-color: transparent;
-    z-index: -1;
-}
- */
-
-.skil_box h1 {
-    /* position: absolute;
-    columns: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1; */
 }
 
 .skill {
@@ -397,7 +345,6 @@ header {}
 }
 
 .skill svg {
-    /* position: absolute; */
     top: 0;
     left: 0;
 }
@@ -434,7 +381,7 @@ header {}
 /* portfolio section starts */
 
 .portfolio {
-    background-color: #58ac12;
+    background-color: #9ACD32;
 }
 
 .portfolio_content {}
@@ -444,7 +391,6 @@ header {}
 }
 
 .portfolio_text {
-    /* background-color: #414141; */
     padding: 0 16px;
 }
 
@@ -551,11 +497,6 @@ header {}
     color: #212121 !important;
 }
 
-
-/* .portfolio_carousel .owl-dots {
-    display: none;
-} */
-
 .portfolio_carousel .owl-nav {
     display: block;
 }
@@ -618,15 +559,6 @@ header {}
     z-index: 9;
 }
 
-.client_about {
-    /* background-color: #f6f6f6;
-    padding: 30px 15px;
-    border: 1px solid #f6f6f6;
-    position: relative; */
-    /* height: 90%;
-    background-color: #fff; */
-}
-
 .client_about h3 {
     padding-top: 23%;
     color: #ffffffd9;
@@ -640,49 +572,6 @@ header {}
     color: #ffffffd9;
     font-size: 16px;
 }
-
-.box {
-    /* width: 25px;
-    height: 25px;
-    border: 1px solid #f6f6f6;
-    background-color: #f6f6f6;
-    position: absolute;
-    bottom: -14px;
-    transform: rotate(45deg);
-    left: 75px; */
-}
-
-.client_details {}
-
-.client_img {
-    /* width: 70px;
-    height: 70px; */
-}
-
-.client_details {
-    /* display: flex;
-    align-items: center;
-    justify-content: start;
-    margin-left: 50px; */
-}
-
-
-/* 
-.client_details ul {
-    list-style: none;
-}
-
-.client_details ul li {}
-
-.client_details ul li h4 {
-    color: #696868;
-    font-size: 20px;
-}
-
-.client_details ul li h6 {
-    color: #696868;
-    font-size: 16px;
-} */
 
 .client_carousel .owl-dots {
     display: block;
@@ -717,7 +606,6 @@ header {}
 
 .touch h2 {
     color: #ffffffd9;
-    /* margin-bottom: 25px; */
     font-size: 50px;
 }
 
@@ -772,7 +660,6 @@ header {}
     color: #58ac12;
     transition: .7s all ease-in-out;
     border: 2px solid transparent;
-    /* padding: 5px 18px; */
     background-color: #ffffffd9;
 }
 
@@ -800,7 +687,6 @@ header {}
 
 .contact ul {
     list-style: none;
-    /* width: 60%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -826,10 +712,19 @@ header {}
 }
 
 .contact-details:hover {
-    border: 1px solid #ffffffd9;
-    background-color: #ffffffd9;
-    color: #58ac12;
+    border: 0px solid transparent;
+    /* background-color: #ffffffd9; */
+    color: #FFFF99;
     transition: .5s all ease-in-out;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d6d3d1+0,d6d3d1+100&1+0,0+50,0+50,1+100 */
+    background: -moz-linear-gradient(top, rgba(214, 211, 209, 1) 0%, rgba(214, 211, 209, 0) 50%, rgba(214, 211, 209, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(214, 211, 209, 1) 0%, rgba(214, 211, 209, 0) 50%, rgba(214, 211, 209, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(214, 211, 209, 1) 0%, rgba(214, 211, 209, 0) 50%, rgba(214, 211, 209, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d6d3d1', endColorstr='#d6d3d1', GradientType=0);
+    /* IE6-9 */
 }
 
 .contact ul a i {}
@@ -857,7 +752,6 @@ header {}
 .map_content p {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 16px;
     font-weight: 400;
 }
