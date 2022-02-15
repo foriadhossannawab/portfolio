@@ -16,13 +16,15 @@ p {
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #000000e0;
+    background-color: #040303;
 }
 
 
 /* header starts */
 
-header {}
+header {
+    background: #040303;
+}
 
 .navbar-brand img {
     width: 90px;
@@ -45,9 +47,9 @@ header {}
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #58ac12;
+    color: #AEFEFF;
     transition: .5s all ease-in-out;
-    background-color: #383838;
+    background-color: #476455;
 }
 
 .navbar-light .navbar-nav .nav-link:focus {
@@ -73,8 +75,8 @@ header {}
     width: calc(100% + 20px);
     height: calc(100% + 20px);
     transition: .5s all ease-in-out;
-    border-top: 2px solid #58ac12;
-    border-left: 2px solid #58ac12;
+    border-top: 2px solid #AEFEFF;
+    border-left: 2px solid #AEFEFF;
 }
 
 .navbar-light .navbar-nav .nav-link::after {
@@ -96,8 +98,8 @@ header {}
     width: calc(100% + 20px);
     height: calc(100% + 20px);
     transition: .5s all ease-in-out;
-    border-bottom: 2px solid #58ac12;
-    border-right: 2px solid #58ac12;
+    border-bottom: 2px solid #AEFEFF;
+    border-right: 2px solid #AEFEFF;
 }
 
 .header_content {}
@@ -117,7 +119,7 @@ header {}
 
 .header_content h3 {
     font-size: 30px;
-    color: #58ac12;
+    color: #93FFD8;
     font-weight: 600;
 }
 
@@ -129,7 +131,7 @@ header {}
 .foriad {}
 
 .header_foot {
-    background-color: #58ac12;
+    background-color: #072227;
 }
 
 .work_content {
@@ -197,7 +199,7 @@ header {}
     left: 15%;
     height: 60%;
     width: 100%;
-    background-color: #58ac12ba;
+    background-color: #072227;
     z-index: -1;
 }
 
@@ -212,7 +214,7 @@ header {}
 }
 
 .about_content h3 {
-    color: #58ac12;
+    color: #93FFD8;
     margin-bottom: 20px;
     font-size: 22px;
     font-weight: 600;
@@ -301,7 +303,7 @@ header {}
 }
 
 .skill .inner #number {
-    color: #ffffff;
+    color: #ffffffc4;
     font-size: 30px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
@@ -316,7 +318,7 @@ header {}
 
 .skill circle {
     fill: none;
-    stroke: #58ac1285;
+    stroke: #35858bc7;
     stroke-width: 20px;
     stroke-dasharray: 440;
     /* animation: move 2s linear forwards; */
@@ -351,13 +353,14 @@ header {}
 
 .skills h2 {
     margin-top: 30px;
-    color: #ffffffd9;
+    color: #ffffffc4;
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 .skills p {
     margin-top: 15px;
-    color: #ffffffd9;
+    color: #ffffffc4;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -366,11 +369,11 @@ header {}
 }
 
 .skills:hover {
-    background-color: #212121;
+    background-color: #21212185;
 }
 
 .skills:hover .skill circle {
-    stroke: #58ac12;
+    stroke: #35858bc2;
     transition: .5s all ease-in-out;
 }
 
@@ -381,7 +384,7 @@ header {}
 /* portfolio section starts */
 
 .portfolio {
-    background-color: #9ACD32;
+    background-color: #35858b;
 }
 
 .portfolio_content {}
@@ -533,7 +536,7 @@ header {}
     height: 23%;
     width: 23%;
     border-radius: 50%;
-    background-color: #58ac12;
+    background-color: #35858b;
     color: #ffffffd9;
     display: flex;
     align-items: center;
@@ -555,7 +558,7 @@ header {}
     display: flex;
     text-align: center;
     justify-content: center;
-    border: 1px solid #58ac12;
+    border: 1px solid #35858b;
     z-index: 9;
 }
 
@@ -579,6 +582,15 @@ header {}
     margin-top: 75px;
 }
 
+
+/* .client_carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+    padding: 10px 0;
+} */
+
 .client_carousel .owl-dots .owl-dot span {
     display: block;
     height: 8px;
@@ -589,7 +601,7 @@ header {}
 }
 
 .client_carousel .owl-dots .active span {
-    background-color: #58ac12;
+    background-color: #35858b;
     height: 10px;
     width: 10px;
 }
@@ -601,7 +613,7 @@ header {}
 /* touch part starts */
 
 .touch {
-    background-color: #58ac12;
+    background-color: #35858B;
 }
 
 .touch h2 {
@@ -630,11 +642,12 @@ header {}
 .touch form input:focus,
 .touch form textarea:focus {
     color: #212529;
-    background-color: transparent;
-    border-bottom: 2px solid #ffffffd9 !important;
-    outline: 0;
-    color: #ffffffd9;
+    background-color: #1c4f55;
+    border-bottom: 2px solid transparent!important;
+    /* outline: 0; */
+    color: #1c4f55;
     box-shadow: none;
+    padding: 10px;
 }
 
 .touch input[type="submit"] {
@@ -648,7 +661,7 @@ header {}
     font-weight: 500;
     font-weight: 600;
     position: relative;
-    background-color: #58ac12;
+    background-color: #35858b;
     height: 50px;
     display: flex;
     align-items: center;
@@ -657,10 +670,10 @@ header {}
 }
 
 .touch input[type="submit"]:hover {
-    color: #58ac12;
+    color: #69acad;
     transition: .7s all ease-in-out;
-    border: 2px solid transparent;
-    background-color: #ffffffd9;
+    border: 1px solid transparent !important;
+    background-color: #0722278a;
 }
 
 .contact {}
@@ -745,7 +758,7 @@ header {}
     top: 50%;
     right: 10%;
     transform: translateY(-50%);
-    background-color: #58ac12;
+    background-color: #35858b;
     transition: 0.4s all ease-in-out;
 }
 
@@ -770,8 +783,126 @@ footer h6 {
 }
 
 footer h6 span {
-    color: #58ac12;
+    color: #AEFEFF;
 }
 
 
 /*footer part end */
+
+.wrapper {
+    width: 100%;
+    background-color: #040303;
+}
+
+.progress_card {
+    width: 90%;
+    height: 360px;
+    background-color: #131212;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.progress_card:hover .progress_box {
+    transform: translate(-50%, -50%) scale(1.1);
+    transition: .5s all ease-in-out;
+}
+
+.progress_circle {
+    height: 150px;
+    width: 150px;
+    /* border: 10px solid #212121; */
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+
+.progress_bar {}
+
+.progress_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transform: translate(-50%, -50%) scale(0.8);
+    background-color: #131212;
+}
+
+.progress_card:hover .progress_box {
+    border: 1px solid transparent;
+    transform: translate(-50%, -50%) scale(0.91);
+    transition: .3s all ease-in-out;
+}
+
+.progress_box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffd9;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.progress_card:hover .progress_box span {
+    transform: translate(-45%, -45%) scale(1.09);
+    transition: .5s all ease-in-out;
+}
+
+.progress_text {
+    /* color: #ffffffd9; */
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ffffffd9;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* 
+        let options01 = {
+            stsrtAngle: -155,
+            size: 150,
+            value: .75,
+            fill: {
+                color: "#35858bc7"
+            }
+        }
+        $(".css .progress_bar").circleProgress(options01).on('circle-animation-progress', function(event, progress, stepvalue) {
+            $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+        });
+
+        let options02 = {
+            stsrtAngle: -155,
+            size: 150,
+            value: .50,
+            fill: {
+                color: " #35858bc7"
+            }
+        }
+        $(".js .progress_bar").circleProgress(options02).on('circle-animation-progress', function(event, progress, stepvalue) {
+            $(this).parent().find("span").text(String(stepValue.toFixed(3).substr(2)) + "%");
+        });
+
+        let options03 = {
+            stsrtAngle: -155,
+            size: 150,
+            value: .70,
+            fill: {
+                color: "#35858bc7"
+            }
+        }
+        $(".bootstrap .progress_bar").circleProgress(options03).on('circle-animation-progress', function(event, progress, stepvalue) {
+            $(this).parent().find("span").text(String(stepValue.toFixed(3).substr(2)) + "%");
+        });
+
+*/
